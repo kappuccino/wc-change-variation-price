@@ -2,7 +2,7 @@
 /*
 Plugin Name: WooCommerce Change Variation Price
 Description: Allow to change a bunch of variation price all at once
-Version: 1.0.15
+Version: 1.0.16
 Author: Benjamin Mosnier <kappuccino.org>
 License: GPLv3
 */

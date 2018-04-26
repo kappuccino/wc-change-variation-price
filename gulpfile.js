@@ -26,7 +26,7 @@
 	gulp.task('version', function(){
 		const bump = require('gulp-bump')
 
-		return gulp.src(['./package.json', './index.php'])
+		return gulp.src(['./package.json', './package-lock.json', './index.php'])
 			.pipe(bump({type:'patch'}))
 			.pipe(gulp.dest('./'));
 
